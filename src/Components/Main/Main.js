@@ -8,6 +8,7 @@ import arcade from "../../images/icons/arcade.png";
 import Fourth from "./Fourth/Fourth";
 import Rating from "./Rating/Rating";
 import Youtube from "../Youtube/Youtube";
+import AppleNews from "../AppleNews/News";
 
 function Main() {
   return (
@@ -36,10 +37,10 @@ function Main() {
           <div className="links-wrapper">
             <ul>
               <li>
-                <a href="">Learn more</a>
+                <a href="#">Learn more</a>
               </li>
               <li>
-                <a href="">Order</a>
+                <a href="#">Order</a>
               </li>
             </ul>
           </div>
@@ -249,8 +250,10 @@ function Main() {
         </div>
       </section>
 
-      <section className="youtubeVideosWrapper top-100">
-        {/* <Youtube /> */}
+      <section className="NewsWrapper top-10">
+        <Youtube />
+        {/* <AppleNews /> */}
+       
       </section>
     </div>
   );
